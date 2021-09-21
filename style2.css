@@ -1,0 +1,206 @@
+
+
+
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    font-size: 10px;
+}
+
+/*-------------NAV----------------*/
+
+nav {
+
+    height: 50px;
+    background-color: rgb(54,54,54);
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li {
+
+    display: inline-block;
+    
+}
+
+nav li a {
+
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+nav li a:hover {
+
+    color: rgb(0, 195, 255);
+} 
+
+
+
+/*-------------HEADER----------------*/
+
+.header-img {
+
+    position: relative;
+    height: 250px;
+    background-image: url('coffee-1030971_1920.jpg');
+    background-position: 60% 22%;
+    background-repeat: no-repeat;
+}
+
+.header-bg {
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+} 
+
+.header-text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+
+header h1 {
+
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+} 
+
+/*-------------------MAIN--------------------------*/
+
+main{
+background-image:url('pexels-aaditya-arora-592753.jpg');
+background-size:cover;
+
+}
+
+.blok{
+  width:40%;
+  height:300px;
+  background-image:url('JanKochanowski2.jpg');
+  padding:15px;
+  font-size:1.2em;
+  border:7px solid #F8F7D9;
+  transition-duration:1.5s;
+  margin:5%;
+  text-transform:uppercase;
+  background-position: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px;
+  border-top-right-radius:50px;
+  
+}
+
+.blok:hover {
+  width:60%;
+  filter: drop-shadow(5px 5px 15px  Gray) saturate(200%);
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.blok-text{
+padding: 0 50px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 1.2rem;
+letter-spacing: 2px;
+transition: color .3s;
+}
+
+.blok2{
+  position:relative;
+  width:40%;
+  height:300px;
+  background-image:url('JanKochanowski1.jpg');
+  padding:15px;
+  font-size:1.2em;
+  border:7px solid #F8F7D9;
+  transition-duration:1.5s;
+  margin:5%;
+  text-transform:uppercase;
+  background-position: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px;
+  border-top-right-radius:50px;
+}
+
+.blok2:hover {
+  width:60%;
+  filter: drop-shadow(5px 5px 15px  Gray) saturate(200%);
+  text-shadow: black 0.2em 0.2em 0.3em;
+}
+.blok3{
+  position:relative;
+  width:40%;
+  height:300px;
+  background-image:url('JanKochanowski3.jpg');
+  padding:15px;
+  font-size:1.2em;
+  border:7px solid #F8F7D9;
+  transition-duration:1.5s;
+  margin:5%;
+  text-transform:uppercase;
+  background-position: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px;
+  border-top-right-radius:50px;
+}
+
+.blok3:hover {
+  width:60%;
+  filter: drop-shadow(5px 5px 15px  Gray) saturate(200%);
+  text-shadow: black 0.2em 0.2em 0.3em;
+}
+
+/*-------------------FOOTER--------------------------*/
+
+footer {
+
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    background-color: rgb(54,54,54);
+    text-align: center;
+    font-size: 15px;
+}
+
+.foot-ico {
+
+    margin-left: 50px;
+
+}
+
+.foot-ico i {
+
+    padding: 0 5px;
+    color: #fff;
+}
